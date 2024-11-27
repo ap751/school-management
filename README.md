@@ -1,49 +1,53 @@
-School Management System
-This project is a School Management System designed to manage roles and functionalities for Admin, Teachers, and Students. Below is an overview of the system's workflow and key features.
+​**School Management System**
 
-Roles and Responsibilities
-1. Admin
-The Admin is responsible for managing user enrollment and system configurations:
+The School Management System is designed to efficiently oversee the roles and functionalities of Administrators, Teachers, and Students. Below, you will find an overview of the system's workflow and its key features.
 
-Enrollment:
-For Students:
-Assign a username: Roll Number.
-Set the default password: Date of Birth (DOB).
-For Teachers:
-Assign a username: Phone Number.
-Set the default password: Phone Number.
-Can delete user entries (students/teachers) if updates to critical fields like the username (e.g., roll number for students) are needed. Deleted users must be re-registered afresh.
-2. Student
-Students can:
+**Roles and Responsibilities**
 
-Login:
-Use the provided username (Roll Number) and password (DOB).
-Update Details:
-Edit personal information such as name, email, or address.
-Update the password for their account.
-Username Changes:
-Request an update to their Roll Number. The Admin must delete and re-register the student.
-3. Teacher
-Teachers can:
+1. **Administrator**  
+The Administrator is tasked with managing user enrollment and configuring system settings:
 
-Login:
-Use the provided username (Phone Number) and password (Phone Number).
-Update Details:
-Edit personal information such as name, email, or address.
-Update the password for their account.
-Username Changes:
-Request an update to their Phone Number. The Admin must delete and re-register the teacher.
-Workflow
-Admin Enrollment:
+   - **Enrollment:**
+     - **For Students:**  
+       - Username: Assigned as the Roll Number.  
+       - Default Password: Set to the Date of Birth (DOB).  
+     - **For Teachers:**  
+       - Username: Assigned as the Phone Number.  
+       - Default Password: Set to the Phone Number.  
+     - The Administrator has the authority to delete user entries (for both students and teachers) when updates to critical fields, such as the username (e.g., Roll Number for students), are necessary. Deleted users must be re-registered as new entries.
 
-Admin enrolls Students and Teachers, providing usernames and default passwords.
-Credentials are communicated to the respective users.
-User Login:
+2. **Student**  
+Students have the following capabilities:
 
-Students and Teachers log in using the credentials provided by the Admin.
-Details Management:
+   - **Login:**  
+     - Access the system using the provided username (Roll Number) and password (DOB).  
+   - **Update Details:**  
+     - Modify personal information such as name, email, or address.  
+     - Change the password for their account.  
+   - **Username Changes:**  
+     - Request an update to their Roll Number. The Administrator must delete and re-register the student to effect this change.
 
-Students and Teachers can update their additional details and edit existing details (excluding usernames).
-Critical Updates:
+3. **Teacher**  
+Teachers are empowered to:
 
-To update a username (Roll Number for students or Phone Number for teachers), the Admin must delete the user's current entry and re-register them with updated details.
+   - **Login:**  
+     - Access the system using the provided username (Phone Number) and password (Phone Number).  
+   - **Update Details:**  
+     - Modify personal information such as name, email, or address.  
+     - Change the password for their account.  
+   - **Username Changes:**  
+     - Request an update to their Phone Number. The Administrator will need to delete and re-register the teacher for this change to take place.
+
+**Workflow**
+
+- **Admin Enrollment:**  
+  The Administrator enrolls Students and Teachers, assigning usernames and default passwords, which are then communicated to the respective users.
+
+- **User Login:**  
+  Students and Teachers log in using the credentials provided by the Administrator.
+
+- **Details Management:**  
+  Students and Teachers can update additional details and modify existing information (excluding usernames).
+
+- **Critical Updates:**  
+  To change a username (Roll Number for students or Phone Number for teachers), the Administrator must delete the user’s current entry and re-register them with the updated details.
