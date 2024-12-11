@@ -51,3 +51,6 @@ Teachers are empowered to:
 
 - **Critical Updates:**  
   To change a username (Roll Number for students or Phone Number for teachers), the Administrator must delete the user’s current entry and re-register them with the updated details.
+
+
+Postman Collection:- https://api.postman.com/collections/35074450-d4781abf-b82d-4a98-a48e-b78a22c9d373?access_key=PMAT-01JDN1H0TTFW7V4J73H31EFQ2P
